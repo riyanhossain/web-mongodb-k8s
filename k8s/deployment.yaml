@@ -13,8 +13,7 @@ spec:
         app: web-mongodb-k8s
     spec:
       containers:
-        - name: git init
-git add
+        - name: web-mongodb-k8s
           image: gcr.io/vivid-reality-385706/web-mongodb-k8s
           ports:
             - containerPort: 5000
