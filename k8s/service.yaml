@@ -9,4 +9,4 @@ spec:
     - name: tcp
       port: 80
       targetPort: 5000
-  type: LoadBalancer999
+  type: LoadBalancer
